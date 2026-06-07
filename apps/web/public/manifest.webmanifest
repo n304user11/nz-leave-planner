@@ -1,0 +1,10 @@
+{
+  "name": "NZ Leave Planner",
+  "short_name": "Leave Planner",
+  "description": "Stretch your time off around NZ public holidays",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "en"
+}

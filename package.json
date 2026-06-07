@@ -1,0 +1,14 @@
+{
+  "name": "nz-leave-planner",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @nz-leave/web",
+    "build": "npm run build -w @nz-leave/core && npm run build -w @nz-leave/web",
+    "test": "npm run test -w @nz-leave/core",
+    "lint": "npm run lint -w @nz-leave/web"
+  }
+}
